@@ -1,0 +1,174 @@
+body{
+    font-family: sans-serif;
+    line-height: 18px;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+}
+
+header{
+    background-color: rgb(245, 245, 238);
+}
+
+nav{
+    margin: 0 70px 0 70px;
+    z-index: 1;
+}
+
+.nav-g{
+    display: flex;
+}
+
+.nav-d{
+    display: flex;
+    margin-right: 300px;
+}
+
+.nav-d > div{
+    padding: 20px;
+}
+
+.nav-g > div{
+    padding: 20px;
+}
+
+.nav-g > div > ul > li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-g > div > ul > li:hover .sous{
+    display: block;
+}
+
+.sous{
+    display: none;
+    list-style: none;
+    margin: 15px;
+    line-height: 30px;
+}
+
+.nav-g > div > ul > li > ul > li >a{
+    text-decoration: none;
+}
+
+.nav-g > div > p > a{
+    text-decoration: none;
+}
+
+.nav-d > div > p > a{
+    text-decoration: none;
+}
+
+.nav-d > div > p{
+    font-size: 15px;
+    color: black;
+}
+
+.form-1 > p{
+    border-bottom: 3px solid black;
+    padding: 15px;
+}
+
+.form-1 > p >a{
+    font-size: 20px;
+}
+
+.form-2 > button{
+    border-radius: 50px;
+    background-color: black;
+    padding: 20px;
+}
+
+.form-2 > button{
+    color: rgb(122, 150, 122);
+    font-size: 20px;
+}
+
+.form-2 > button:hover{
+    background-color: rgb(122, 150, 122);
+    color: black;
+    border: 2px solid black;
+}
+
+.form-2 > p > a:hover{
+    color: black;
+}
+
+.blog > p > a{
+    font-size: 20px;
+}
+
+/*partie section*/
+
+.section-1{
+    display: flex;
+    background-color: rgb(22, 45, 22);
+    justify-content: center;
+    align-items: stretch;
+    padding: 104px 59px;
+}
+
+.section-1 > div > h1{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 58px;
+    color: rgb(216, 229, 216);
+}
+
+.section-1 > div > p{
+    color: rgb(216, 229, 216);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    line-height: 25px;
+}
+
+.section-1 > div > div > div > p{
+    color: rgb(216, 229, 216);
+}
+
+.section-1 .content-wrapper{
+    grid-column-gap: 16px;
+    border: 2px solid rgb(216, 229, 216);
+    background-color: rgb(216, 229, 216);
+    color: rgb(93, 126, 93);
+    border-radius: 50px;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: center;
+    padding: 12px 24px;
+    font-family: greycliffcf, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    transition: all .15s;
+    display: flex;
+}
+
+.global{
+    grid-row-gap: 32px;
+    color: var(--vert-blanc);
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+}
+
+.global img{
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+}
