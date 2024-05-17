@@ -146,6 +146,8 @@ nav{
     align-items: stretch;
     padding: 104px 59px;
     display: flex;
+    font-size: 1.2rem;
+    line-height: 20px;
 }
 
 .content{
@@ -251,4 +253,99 @@ button a:hover{
 div > .sentence{
     display: block;
     unicode-bidi: isolate;
+}
+
+.wrapper-subheader{
+    grid-column-gap: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.subheader-content.left {
+    color: rgb(154, 189, 154);
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.subheader-content {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    display: flex;
+}
+
+.inline{
+    max-width: 100%;
+    display: flex;
+}
+
+.wrapper-subheader{
+    font-size: 1.2rem;
+}
+
+.wrapper-subheader a{
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(154, 189, 154);
+}
+
+.wrapper-subheader a div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.icon-2 {
+    flex: none;
+    width: 24px;
+    height: 24px;
+}
+
+.wha{
+    vertical-align: middle;
+    max-width: 100%;
+    display: flex;
+}
+
+.separator{
+    background-color: black;
+    align-self: stretch;
+    width: 1px;
+}
+
+.subheader-content {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: row;    
+    align-items: center;
+    width: 350px;
+    display: flex;
+}
+
+.wrapper-trustpilot {
+    grid-column-gap: 4px;
+    grid-row-gap: 8px;
+    background-color: var(--white);
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
+}
+
+.trustpilot-star {
+    width: 128px;
+    height: 24px;
+}
+
+.wrapper-trustpilot{
+    grid-column-gap: 4px;
+    grid-row-gap: 8px;
+    background-color: white;
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
 }
