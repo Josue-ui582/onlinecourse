@@ -82,7 +82,9 @@ nav{
 .form-2 > button{
     border-radius: 50px;
     background-color: black;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
 }
 
 .form-2 > button{
@@ -348,4 +350,333 @@ div > .sentence{
     flex-direction: column;
     padding: 10px;
     display: flex;
+}
+
+.main-wrapper {
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(245, 245, 238);
+}
+
+.page-padding.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.page-padding {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    display: flex;
+}
+
+.container {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 80rem;
+    display: flex;
+}
+
+.wrapper-logo {
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.clwrapper-bandeau {
+    position: relative;
+}
+
+.clist-bandeau {
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee-horizontal 60s linear infinite;
+}
+
+
+@media screen and (max-width: 991px) {
+    .clist-bandeau {
+        align-content: stretch;
+    }
+}
+
+.clist-bandeau {
+    justify-content: flex-start;
+    width: 100%;
+    display: flex;
+}
+
+.clist-bandeau {
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee-horizontal 60s linear infinite;
+}
+
+.content-logo {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    transition: all .15s;
+    display: flex;
+}
+
+.logo {
+    filter: grayscale();
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.section-small-business {
+    position: relative;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+.trigger-anchor {
+    height: 84px;
+    position: absolute;
+    top: -84px;
+    left: 0%;
+    right: auto;
+}
+
+.page-padding {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    display: flex;
+}
+
+.container {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 80rem;
+    display: flex;
+}
+
+.wrapper-small-business {
+    grid-column-gap: 48px;
+    grid-row-gap: 48px;
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+}
+
+.wrapper-title-section {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 67.2px;
+}
+
+.span-orange {
+    color: rgb(255, 140, 0);
+}
+
+.wrapper-content-business-type {
+    grid-column-gap: 48px;
+    grid-row-gap: 48px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+
+.wrapper-content {
+    grid-row-gap: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+}
+
+._w-content-type {
+    grid-row-gap: 24px;
+    flex-direction: column;
+    display: flex;
+}
+
+h3 {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+h3 {
+    color: rgb(132, 236, 169);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+p{
+    margin-bottom: 0;
+    margin-top: 0;
+    color: rgb(46, 48, 46);
+    font-size: 1.2rem;
+    line-height: 22px;
+}
+
+._w-content-type {
+    grid-row-gap: 24px;
+    flex-direction: column;
+    display: flex;
+}
+
+.h3-card {
+    color: rgb(46, 48, 46);
+    font-weight: 700;
+}
+
+h3 {
+    color: var(--vert-blanc);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+.button-black {
+    grid-column-gap: 16px;
+    border: 2px solid rgb(121, 149, 121);
+    background-color: rgb(34, 36, 34);
+    color: rgb(132, 236, 169);
+    border-radius: 50px;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: center;
+    padding: 12px 24px;
+    font-family: greycliffcf, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    transition: all .15s;
+    display: flex;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.w-inline-block {
+    display: flex;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.icon-24 {
+    flex: none;
+    width: 24px;
+    height: 24px;
+}
+
+.w-embed:before, .w-embed:after {
+    content: " ";
+    grid-area: 1 / 1 / 2 / 2;
+    display: table;
+}
+
+.w-embed:after {
+    clear: both;
+}
+
+.w-embed:before, .w-embed:after {
+    content: " ";
+    grid-area: 1 / 1 / 2 / 2;
+    display: table;
+}
+
+@media screen and (max-width: 991px) {
+    .wrapper-illustration {
+        padding-top: 0;
+    }
+}
+
+.wrapper-illustration {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 0;
+    display: flex;
+    position: relative;
+}
+
+.illustration-content {
+    background-color: rgb(99, 202, 135);
+    border-radius: 16px;
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: auto;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+@media screen and (max-width: 991px) {
+    .pattern-3 {
+        top: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .illustration-1 {
+        width: 320px;
+        height: 400.047px;
+    }
+}
+
+.illustration-1 {
+    object-fit: contain;
+    border-radius: 20px;
+    width: 350px;
+    height: 437.547px;
+    position: relative;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
 }
